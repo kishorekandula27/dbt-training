@@ -8,10 +8,12 @@ ro.ORDERSELLINGPRICE - ro.ORDERCOSTPRICE ORDERPROFIT,
 ro.ORDERCOSTPRICE,
 ro.ORDERSELLINGPRICE,
 --raw_customer columns
+rc.customerid,
 rc.customername,
 rc.segment,
 rc.country,
 --raw_product columns
+rp.productid,
 rp.category,
 rp.productname,
 rp.subcategory
